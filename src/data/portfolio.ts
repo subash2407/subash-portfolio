@@ -5,7 +5,7 @@ export const portfolioData = {
     email: "subashv2407@gmail.com",
     phone: "+91 6369608964",
     location: "Velachery, Chennai 600042",
-    summary: "Full Stack Developer with strong expertise in backend development using Node.js (NestJS) and PHP (Laravel), along with hands-on experience in frontend technologies like Next.js, JavaScript, HTML, and CSS. Skilled in building scalable ERP and HRMS systems, designing robust APIs, and delivering responsive user interfaces. Proven ability to develop end-to-end solutions and collaborate effectively in agile environments.",
+    summary: "Full Stack Developer with strong expertise in backend development using Node.js (NestJS) and PHP (Laravel,Codeigniter), along with hands-on experience in frontend technologies like Next.js, JavaScript, HTML, and CSS. Skilled in building scalable ERP and HRMS systems, designing robust APIs, and delivering responsive user interfaces. Proven ability to develop end-to-end solutions and collaborate effectively in agile environments.",
   },
   
   experience: [
@@ -17,8 +17,8 @@ export const portfolioData = {
       location: "Chennai",
       highlights: [
         "Led and mentored a team of backend developers, ensuring code quality and delivery of scalable ERP solutions",
-        "Designed and developed HRMS modules including Sales, Electron, and Asset Management",
-        "Built and maintained HRMS modules for Sales, Electron, and Asset Management",
+        "Designed and developed HRMS modules including Exit/Resignation, Offer Management , and Asset Management",
+        "Built and maintained HRMS modules for Sales, Erection, and Service",
         "Integrated third-party systems such as Tally, E-Invoice, and E-Waybill, streamlining business and financial workflows",
         "Collaborated closely with frontend teams using Next.js to deliver responsive and seamless user experiences",
         "Facilitated Agile practices including sprint planning, daily stand-ups, and retrospectives to ensure timely delivery"
@@ -40,8 +40,8 @@ export const portfolioData = {
   ],
 
   skills: {
-    backend: ["PHP (Laravel)", "Node.js (NestJS)", "TypeScript", "MySQL"],
-    frontend: ["React (NestJS)", "JavaScript", "TypeScript", "HTML", "CSS", "Next.js"],
+    backend: ["PHP (Laravel,Codeigniter)", "Node.js (NestJS)", "TypeScript", "MySQL"],
+    frontend: ["React (Next.js)", "JavaScript", "TypeScript", "HTML", "CSS", "Next.js"],
     tools: ["API Documentation (Swagger, Postman)", "MySQL", "Git"],
     // advanced: ["API Documentation (Swagger, Postman)", "RESTFUL API design", "Third party API (e-wayBill,E-invoice,Tally)"]
   },
@@ -81,7 +81,7 @@ export const portfolioData = {
     {
       id: 1,
       title: "ERP Management System",
-      description: "Built a comprehensive Enterprise Resource Planning system with modules for sales, inventory, and finance management",
+      description: "Built a comprehensive Enterprise Resource Planning system with modules for sales,erection, and service modules, featuring multi-module architecture, real-time reporting, and role-based access control for efficient business operations.",
       technologies: ["Node.js (NestJS)", "MySQL", "React(Next.js)", "REST API"],
       highlights: ["Multi-module architecture", "Real-time reporting", "Role-based access control"]
     },
