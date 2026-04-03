@@ -26,15 +26,15 @@ const About: React.FC = () => {
           
           <div className={styles.stats}>
             <div className={styles.statItem}>
-              <h3>3+</h3>
+              <h3>4+</h3>
               <p>Years of Experience</p>
             </div>
             <div className={styles.statItem}>
-              <h3>10+</h3>
+              <h3>5+</h3>
               <p>Projects Completed</p>
             </div>
             <div className={styles.statItem}>
-              <h3>5</h3>
+              <h3>2</h3>
               <p>Languages</p>
             </div>
             <div className={styles.statItem}>

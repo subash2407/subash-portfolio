@@ -3,7 +3,7 @@ export const portfolioData = {
     name: "Subash V",
     title: "Full Stack Developer",
     email: "subashv2407@gmail.com",
-    phone: "+91 6369088964",
+    phone: "+91 6369608964",
     location: "Velachery, Chennai 600042",
     summary: "Full Stack Developer with strong expertise in backend development using Node.js (NestJS) and PHP (Laravel), along with hands-on experience in frontend technologies like Next.js, JavaScript, HTML, and CSS. Skilled in building scalable ERP and HRMS systems, designing robust APIs, and delivering responsive user interfaces. Proven ability to develop end-to-end solutions and collaborate effectively in agile environments.",
   },
@@ -12,7 +12,7 @@ export const portfolioData = {
     {
       id: 1,
       position: "Team Lead - Backend Developer",
-      company: "Arpit Informatics",
+      company: "ABShrms",
       duration: "FEB 2024 - MAR 2025",
       location: "Chennai",
       highlights: [
@@ -42,36 +42,35 @@ export const portfolioData = {
   skills: {
     backend: ["PHP (Laravel)", "Node.js (NestJS)", "TypeScript", "MySQL"],
     frontend: ["React (NestJS)", "JavaScript", "TypeScript", "HTML", "CSS", "Next.js"],
-    tools: ["React (NestJS)", "MySQL", "CRM (Sequeaze, TypeORM)", "Docker", "Git"],
-    advanced: ["API Documentation (Swagger, Postman)", "RESTFUL API design", "Third party API (e-wayBill,E-invoice,Tally)"]
+    tools: ["API Documentation (Swagger, Postman)", "MySQL", "Git"],
+    // advanced: ["API Documentation (Swagger, Postman)", "RESTFUL API design", "Third party API (e-wayBill,E-invoice,Tally)"]
   },
 
   education: [
     {
       id: 1,
       degree: "B.Sc - Computer Technology",
-      institution: "SRM Institute of Science and Technology",
+      institution: "Erode Arts and Science College",
       duration: "2018 - 2021",
-      location: "Kattankulathur",
+      location: "Erode",
       cgpa: "CGPA - 5.6",
-      aggregate: "2019 - 2021"
     },
     {
       id: 2,
       degree: "Higher Secondary",
-      institution: "Sri Bhanu Benicia School",
+      institution: "Government Boys Higher Secondary School",
       duration: "April 2018",
-      location: "Kattankulathur",
-      percentage: "72%",
+      location: "Sankarapuram,Kallakurichi",
+      percentage: "57%",
       aggregate: "April 2018"
     },
     {
       id: 3,
       degree: "Secondary School",
-      institution: "St. Joseph Academy Matric H Sec School",
+      institution: "St. Joseph Academy Matric Higher Secondary School",
       duration: "April 2016",
-      location: "Kattankulathur",
-      percentage: "73.8%",
+      location: "Sankarapuram,Kallakurichi",
+      percentage: "78%",
       aggregate: "April 2016"
     }
   ],
@@ -83,21 +82,35 @@ export const portfolioData = {
       id: 1,
       title: "ERP Management System",
       description: "Built a comprehensive Enterprise Resource Planning system with modules for sales, inventory, and finance management",
-      technologies: ["Laravel", "MySQL", "Vue.js", "REST API"],
+      technologies: ["Node.js (NestJS)", "MySQL", "React(Next.js)", "REST API"],
       highlights: ["Multi-module architecture", "Real-time reporting", "Role-based access control"]
     },
     {
       id: 2,
       title: "HRMS Application",
       description: "Developed Human Resource Management System featuring employee management, payroll processing, and leave management",
-      technologies: ["Node.js (NestJS)", "React", "PostgreSQL", "TypeScript"],
+      technologies: ["Node.js (NestJS)", "MySQL", "React(Next.js)", "REST API"],
       highlights: ["Scalable microservices", "Automated workflows", "Advanced analytics dashboard"]
     },
     {
       id: 3,
+      title: "YouTube Content Management System",
+      description: "Developed a full-featured content management system for YouTube channel operations, enabling management of video metadata, scheduling, audience analytics, and content workflows for media teams.",
+      technologies: ["PHP (Laravel)", "MySQL", "REST API"],
+      highlights: ["Video metadata & scheduling management", "Role-based access for content teams", "Analytics dashboard for audience insights"]
+    },
+    {
+      id: 4,
+      title: "Billing System",
+      description: "Built an end-to-end billing and invoicing platform for managing client subscriptions, generating invoices, tracking payments, and producing financial reports for business operations.",
+      technologies: ["PHP (CodeIgniter)", "MySQL", "REST API"],
+      highlights: ["Automated invoice generation", "Payment tracking & reconciliation", "Detailed financial reporting"]
+    },
+    {
+      id: 5,
       title: "Third-party Integration Platform",
       description: "Integrated multiple third-party services including Tally, E-Invoice, and E-Waybill for seamless business operations",
-      technologies: ["Node.js", "REST API", "Payment Gateway Integration"],
+      technologies: ["Node.js", "REST API"],
       highlights: ["Secure integration", "Error handling", "Transaction logging"]
     }
   ]

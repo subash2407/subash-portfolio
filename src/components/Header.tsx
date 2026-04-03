@@ -30,10 +30,10 @@ const Header: React.FC = () => {
           <a href={`mailto:${portfolioData.personal.email}`} title="Email">
             <FaEnvelope />
           </a>
-          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+          <a href="https://www.linkedin.com/in/subash-v-36563321b/" target="_blank" rel="noopener noreferrer" title="LinkedIn">
             <FaLinkedin />
           </a>
-          <a href="https://github.com" target="_blank" rel="noopener noreferrer" title="GitHub">
+          <a href="https://github.com/subash-v" target="_blank" rel="noopener noreferrer" title="GitHub">
             <FaGithub />
           </a>
         </div>

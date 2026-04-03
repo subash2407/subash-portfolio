@@ -36,14 +36,14 @@ const Skills: React.FC = () => {
             </div>
           </div>
 
-          <div className={styles.skillCategory}>
+          {/* <div className={styles.skillCategory}>
             <h3 className={styles.categoryTitle}>Advanced Skills</h3>
             <div className={styles.skillTags}>
               {portfolioData.skills.advanced.map((skill, idx) => (
                 <span key={idx} className={styles.skillTag}>{skill}</span>
               ))}
             </div>
-          </div>
+          </div> */}
 
         </div>
 

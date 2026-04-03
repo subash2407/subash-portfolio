@@ -16,10 +16,14 @@ const Hero: React.FC = () => {
         </p>
         
         <div className={styles.heroActions}>
-          <button className={styles.ctaButton}>
+          <a
+            href="/resume-subash-01.pdf"
+            download="Subash_V_Resume.pdf"
+            className={styles.ctaButton}
+          >
             <FaDownload /> Download Resume
-          </button>
-          <button className={styles.ctaButtonSecondary}>
+          </a>
+          <button className={styles.ctaButtonSecondary} onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}>
             Let's Connect
           </button>
         </div>
