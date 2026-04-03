@@ -18,7 +18,7 @@
 - **React Icons**: Beautiful icon library
 - **React Scroll**: Smooth scroll navigation
 
-## 📦 Installation
+## Installation
 
 ```bash
 # Install dependencies
@@ -34,19 +34,14 @@ npm run build
 npm run preview
 ```
 
-## 🔧 Configuration
+## Configuration
 
 - **Vite Config**: [vite.config.ts](vite.config.ts)
 - **TypeScript Config**: [tsconfig.json](tsconfig.json)
 - **Package Dependencies**: [package.json](package.json)
 
-## 📱 Responsive Breakpoints
 
-- Desktop: 1024px and above
-- Tablet: 768px - 1023px
-- Mobile: Below 768px
-
-## 🚢 Deployment
+## Deployment
 
 This portfolio can be easily deployed to:
 - **Vercel**: Zero-config deployment
