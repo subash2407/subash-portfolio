@@ -5,7 +5,7 @@ export const portfolioData = {
     email: "subashv2407@gmail.com",
     phone: "+91 6369608964",
     location: "Velachery, Chennai 600042",
-    summary: "Full Stack Developer with strong expertise in backend development using Node.js (NestJS) and PHP (Laravel,Codeigniter), along with hands-on experience in frontend technologies like Next.js, JavaScript, HTML, and CSS. Skilled in building scalable ERP and HRMS systems, designing robust APIs, and delivering responsive user interfaces. Proven ability to develop end-to-end solutions and collaborate effectively in agile environments.",
+    summary: "Results-driven Backend & Full Stack Developer with 4+ years ofexperience building scalable ERP and HRMS systems using Node.js (NestJS) and PHP (Laravel, CodeIgniter). Expertise in designing high-performance RESTful APIs, integrating third-party services, and optimizing backend systems for scalability and reliability. Proven Team Lead experienced in managing developers, improving system performance and delivering production-grade applications in Agile environments.",
   },
   
   experience: [
@@ -16,12 +16,14 @@ export const portfolioData = {
       duration: "FEB 2024 - MAR 2025",
       location: "Chennai",
       highlights: [
-        "Led and mentored a team of backend developers, ensuring code quality and delivery of scalable ERP solutions",
-        "Designed and developed HRMS modules including Exit/Resignation, Offer Management , and Asset Management",
-        "Built and maintained HRMS modules for Sales, Erection, and Service",
-        "Integrated third-party systems such as Tally, E-Invoice, and E-Waybill, streamlining business and financial workflows",
-        "Collaborated closely with frontend teams using Next.js to deliver responsive and seamless user experiences",
-        "Facilitated Agile practices including sprint planning, daily stand-ups, and retrospectives to ensure timely delivery"
+          "Led a team to build scalable ERP and HRMS systems, improving operational efficiency.",
+          "Designed and developed core HRMS modules including Offer Management, Exit Management, and Asset Tracking.",
+          "Built and optimized backend services using Node.js (NestJS) and PHP frameworks.",
+          "Developed secure and scalable RESTful APIs for enterprise applications.",
+          "Integrated third-party APIs such as Tally, E-Invoice, and E-Waybill to streamline financial and compliance workflows.",
+          "Improved system maintainability by implementing clean architecture and modular design principles.",
+          "Collaborated with frontend teams using NextJs to deliver responsive and high-performance applications.",
+          "Practiced Agile methodologies including sprint planning, code reviews, and daily stand-ups."
       ]
     },
     {
@@ -31,17 +33,18 @@ export const portfolioData = {
       duration: "NOV 2021 - OCT 2023",
       location: "Chennai",
       highlights: [
-        "Developed and maintained billing and content management systems",
-        "Designed responsive user interfaces using HTML, CSS, and JavaScript",
-        "Participated in debugging, performance optimization, and feature enhancements",
-        "Worked with senior developers to resolve issues, improve code quality, and maintain application stability"
+          "Developed and maintained billing systems and content management platforms.",
+          "Built responsive UI components using HTML, CSS, and Bootstrap.",
+          "Contributed to backend development using PHP frameworks including Laravel and CodeIgniter.",
+          "Debugged and resolved production issues, improving application stability.",
+          "Assisted in performance optimization and feature enhancements."
       ]
     }
   ],
 
   skills: {
     backend: ["PHP (Laravel,Codeigniter)", "Node.js (NestJS)", "TypeScript", "MySQL"],
-    frontend: ["React (Next.js)", "JavaScript", "TypeScript", "HTML", "CSS", "Next.js"],
+    frontend: ["React (NextJs)", "JavaScript", "TypeScript", "HTML", "CSS", "NextJs"],
     tools: ["API Documentation (Swagger, Postman)", "MySQL", "Git"],
     // advanced: ["API Documentation (Swagger, Postman)", "RESTFUL API design", "Third party API (e-wayBill,E-invoice,Tally)"]
   },
@@ -82,14 +85,14 @@ export const portfolioData = {
       id: 1,
       title: "ERP Management System",
       description: "Built a comprehensive Enterprise Resource Planning system with modules for sales,erection, and service modules, featuring multi-module architecture, real-time reporting, and role-based access control for efficient business operations.",
-      technologies: ["Node.js (NestJS)", "MySQL", "React(Next.js)", "REST API"],
+      technologies: ["Node.js (NestJS)", "MySQL", "React(NextJs)", "REST API"],
       highlights: ["Multi-module architecture", "Real-time reporting", "Role-based access control"]
     },
     {
       id: 2,
       title: "HRMS Application",
       description: "Developed Human Resource Management System featuring employee management, payroll processing, and leave management",
-      technologies: ["Node.js (NestJS)", "MySQL", "React(Next.js)", "REST API"],
+      technologies: ["Node.js (NestJS)", "MySQL", "React(NextJs)", "REST API"],
       highlights: ["Scalable microservices", "Automated workflows", "Advanced analytics dashboard"]
     },
     {
@@ -110,7 +113,7 @@ export const portfolioData = {
       id: 5,
       title: "Third-party Integration Platform",
       description: "Integrated multiple third-party services including Tally, E-Invoice, and E-Waybill for seamless business operations",
-      technologies: ["Node.js", "REST API"],
+      technologies: ["Node.js (NestJS)", "REST API"],
       highlights: ["Secure integration", "Error handling", "Transaction logging"]
     }
   ]

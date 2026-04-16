@@ -11,10 +11,10 @@ const About: React.FC = () => {
             <p>
               I am a dedicated Full Stack Developer with a passion for building scalable and efficient applications. 
               With expertise in backend development using Node.js (NestJS) and PHP (Laravel,Codeigniter), combined with proficiency 
-              in modern frontend frameworks like React(Next.js), I bridge the gap between UI/UX and robust backend systems.
+              in modern frontend frameworks like React(Nextjs), I bridge the gap between UI/UX and robust backend systems.
             </p>
             <p>
-              Throughout my career, I have successfully designed and implemented complex ERP and HRMS systems, 
+              Throughout my career, I have successfully designed and implemented complex ERP, HRMS, and CRM systems, 
               integrated third-party APIs, and collaborated with cross-functional teams to deliver high-quality solutions. 
               I thrive in agile environments and am committed to continuous learning and professional growth.
             </p>
