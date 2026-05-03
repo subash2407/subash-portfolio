@@ -66,15 +66,13 @@ export const portfolioData = {
       "Sequelize",
       "Eloquent",
     ],
-    frontend: ["React.js (Next.js)", "JavaScript", "TypeScript", "HTML5", "CSS"],
+    frontend: ["React.js (Next.js)", "JavaScript", "HTML5", "CSS"],
     tools: [
       "Git",
       "Postman",
       "Swagger",
       "MySQL",
-      "PostgreSQL",
-      "E-Invoice & E-Waybill APIs",
-      "Tally ERP",
+      "PostgreSQL"
     ],
   },
 
@@ -139,7 +137,7 @@ export const portfolioData = {
       title: "Billing System",
       description:
         "Built an end-to-end billing and invoicing platform for managing client subscriptions, generating invoices, tracking payments, and producing financial reports for business operations.",
-      technologies: ["PHP (CodeIgniter)", "MySQL", "REST API"],
+      technologies: ["Node.js (NestJS)","Angular", "MySQL", "REST API"],
       highlights: ["Automated invoice generation", "Payment tracking & reconciliation", "Detailed financial reporting"],
     },
     {
