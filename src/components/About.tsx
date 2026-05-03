@@ -9,18 +9,17 @@ const About: React.FC = () => {
         <div className={styles.content}>
           <div className={styles.description}>
             <p>
-              I am a dedicated Full Stack Developer with a passion for building scalable and efficient applications. 
-              With expertise in backend development using Node.js (NestJS) and PHP (Laravel,Codeigniter), combined with proficiency 
-              in modern frontend frameworks like React(Nextjs), I bridge the gap between UI/UX and robust backend systems.
+              I am a backend-focused Full Stack Developer who enjoys designing scalable systems and reliable APIs.
+              I work primarily with Node.js (NestJS) and Laravel on the server side, and React (Next.js) when
+              building product experiences with frontend teams.
             </p>
             <p>
-              Throughout my career, I have successfully designed and implemented complex ERP, HRMS, and CRM systems, 
-              integrated third-party APIs, and collaborated with cross-functional teams to deliver high-quality solutions. 
-              I thrive in agile environments and am committed to continuous learning and professional growth.
+              I have delivered multi-module ERP and HRMS applications, led a small engineering team through sprints,
+              and integrated compliance and finance flows using E-invoice, E-waybill, and Tally alongside other REST services.
             </p>
             <p>
-              My technical skill set spans across multiple domains, enabling me to take on diverse challenges and 
-              deliver comprehensive end-to-end solutions that drive business value.
+              I care about clear architecture, performance at the database and API layer, and shipping software that
+              stays maintainable as the business grows.
             </p>
           </div>
           

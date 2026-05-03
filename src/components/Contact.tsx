@@ -43,7 +43,7 @@ const Contact: React.FC = () => {
         <div className={styles.socials}>
           <h3>Connect With Me</h3>
           <div className={styles.socialLinks}>
-            <a href="https://www.linkedin.com/in/subash-v-36563321b/" target="_blank" rel="noopener noreferrer" className={styles.socialLink}>
+            <a href="https://www.linkedin.com/in/subash-v-355633211/" target="_blank" rel="noopener noreferrer" className={styles.socialLink}>
               <FaLinkedin />
             </a>
             <a href="https://github.com/subash-v" target="_blank" rel="noopener noreferrer" className={styles.socialLink}>
