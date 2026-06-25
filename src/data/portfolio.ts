@@ -1,12 +1,12 @@
 export const portfolioData = {
   personal: {
     name: "Subash V",
-    title: "Full Stack Developer (Backend Focused)",
+    title: "Full Stack Developer",
     email: "subashv2407@gmail.com",
     phone: "+91 6369608964",
     location: "Velachery, Chennai 600042",
     summary:
-      "Backend-focused Full Stack Developer with 4+ years of experience building scalable ERP and HRMS systems using Node.js (NestJS) and React (Next.js). Experienced in leading development teams, designing high-performance REST APIs, and delivering multi-module business applications. Strong in microservices architecture, third-party integrations, and optimizing backend systems for reliability and performance.",
+      "Full Stack Developer with 4.2 years of experience in designing, developing, and maintaining ERP and HRMS applications using Node.js, NestJS, React.js, Next.js, PostgreSQL, and MySQL. Experienced in building secure REST APIs, implementing JWT Authentication and Role-Based Access Control (RBAC), integrating third-party services, and optimizing database performance. Skilled in backend development, frontend integration, debugging, and production support. Passionate about building scalable business applications and continuously learning modern web technologies.",
   },
 
   experience: [
@@ -17,13 +17,13 @@ export const portfolioData = {
       duration: "APR 2025 - MAR 2026",
       location: "Chennai",
       highlights: [
-        "Led a team of 6 developers, ensuring timely delivery of ERP modules and smooth sprint execution.",
-        "Designed and developed scalable REST APIs using Node.js (NestJS) for ERP systems.",
-        "Built and maintained multiple modules including Sales, Service, Installation, and Purchase.",
-        "Integrated third-party services including E-invoicing, E-waybill, and Tally APIs.",
-        "Optimized database queries and API performance, improving overall system responsiveness.",
-        "Collaborated with frontend teams using React (Next.js) for seamless integration.",
-        "Acted as the point of contact for technical decisions and cross-team coordination.",
+        "Developed and maintained ERP and HRMS modules using Node.js (NestJS), PostgreSQL, and MySQL.",
+        "Built secure REST APIs with JWT Authentication and Role-Based Access Control (RBAC).",
+        "Developed and maintained Employee Management, Asset Management, Offer Management, and Exit Management modules.",
+        "Integrated third-party services including E-Invoice, E-Way Bill, Tally, and other REST APIs.",
+        "Optimized database queries and improved API performance for enterprise workflows.",
+        "Collaborated with frontend developers using React.js and Next.js for seamless frontend integration.",
+        "Handled production support, debugging, bug fixing, and issue resolution."
       ],
     },
     {
@@ -33,11 +33,11 @@ export const portfolioData = {
       duration: "FEB 2024 - MAR 2025",
       location: "Chennai",
       highlights: [
-        "Developed backend services using Node.js (NestJS) for ERP and HRMS modules.",
-        "Designed REST APIs and supported frontend integration with React (Next.js).",
-        "Developed and maintained modules including Sales, Offer Management, Exit/Resignation, and Asset Management.",
-        "Resolved production issues and improved system stability and reliability.",
-        "Enhanced database performance through query optimization.",
+        "Developed backend services and business logic using Node.js (NestJS) for ERP and HRMS applications.",
+        "Designed and maintained REST APIs and supported frontend integration using React.js and Next.js.",
+        "Developed and maintained Employee Management, Asset Management, Offer Management, and Exit Management modules.",
+        "Resolved production issues and enhanced application stability and reliability.",
+        "Improved database performance through query optimization and efficient data handling",
       ],
     },
     {
@@ -47,10 +47,11 @@ export const portfolioData = {
       duration: "NOV 2021 - OCT 2023",
       location: "Chennai",
       highlights: [
-        "Developed web applications using PHP (Laravel) and MySQL.",
-        "Built responsive user interfaces using HTML, CSS, and Bootstrap.",
-        "Debugged and resolved issues to improve application performance.",
-        "Assisted in backend development and feature enhancements.",
+        "Developed CMS and Billing Management applications using PHP (Laravel) and MySQL.",
+        "Built backend modules, REST APIs, and administrative functionalities.",
+        "Worked on report generation, user management, database operations, and application maintenance.",
+        "Resolved production issues, fixed bugs, and enhanced existing application features.",
+        "Collaborated with frontend and QA teams during development, testing, and feature implementation."
       ],
     },
   ],
@@ -66,7 +67,7 @@ export const portfolioData = {
       "Sequelize",
       "Eloquent",
     ],
-    frontend: ["React.js (Next.js)", "JavaScript", "HTML5", "CSS"],
+    frontend: ["React.js (Next.js)", "JavaScript", "HTML5", "CSS","Bootstrap"],
     tools: [
       "Git",
       "Postman",
@@ -129,7 +130,7 @@ export const portfolioData = {
       title: "YouTube Content Management System",
       description:
         "Developed a full-featured content management system for YouTube channel operations, enabling management of video metadata, scheduling, audience analytics, and content workflows for media teams.",
-      technologies: ["PHP (Laravel)", "MySQL", "REST API"],
+      technologies: ["Node.js (NestJS)","Angular", "MySQL", "REST API"],
       highlights: ["Video metadata & scheduling management", "Role-based access for content teams", "Analytics dashboard for audience insights"],
     },
     {
@@ -137,7 +138,7 @@ export const portfolioData = {
       title: "Billing System",
       description:
         "Built an end-to-end billing and invoicing platform for managing client subscriptions, generating invoices, tracking payments, and producing financial reports for business operations.",
-      technologies: ["Node.js (NestJS)","Angular", "MySQL", "REST API"],
+      technologies: ["PHP (Laravel)", "MySQL", "REST API"],
       highlights: ["Automated invoice generation", "Payment tracking & reconciliation", "Detailed financial reporting"],
     },
     {

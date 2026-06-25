@@ -9,17 +9,15 @@ const About: React.FC = () => {
         <div className={styles.content}>
           <div className={styles.description}>
             <p>
-              I am a backend-focused Full Stack Developer who enjoys designing scalable systems and reliable APIs.
-              I work primarily with Node.js (NestJS) and Laravel on the server side, and React (Next.js) when
-              building product experiences with frontend teams.
+              I am a Full Stack Developer with 4.2 years of experience building ERP and HRMS applications. 
+              I work primarily with Node.js (NestJS), PostgreSQL, and MySQL on the backend, and React.js (Next.js) on the frontend to deliver scalable and reliable business applications.
             </p>
             <p>
-              I have delivered multi-module ERP and HRMS applications, led a small engineering team through sprints,
-              and integrated compliance and finance flows using E-invoice, E-waybill, and Tally alongside other REST services.
+              I have developed multi-module ERP and HRMS systems, implemented secure REST APIs with
+              JWT Authentication and Role-Based Access Control (RBAC), and integrated third-party services including E-Invoice, E-Way Bill, and Tally. My experience also includes database design, query optimization, production support, and application maintenance.
             </p>
             <p>
-              I care about clear architecture, performance at the database and API layer, and shipping software that
-              stays maintainable as the business grows.
+              I enjoy solving business problems through technology, improving application performance, and building maintainable software that can grow with evolving business requirements.
             </p>
           </div>
           
